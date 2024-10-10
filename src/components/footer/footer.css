@@ -10,7 +10,7 @@
   gap: 4rem;
   align-items: center;
   justify-content: center;
-  height: 20rem;
+  height: 30rem;
 }
 
 .social-links {
@@ -24,6 +24,24 @@
   cursor: pointer;
 }
 
+.social-links-img {
+  width: 5rem;
+}
+
 .logo-f img {
-  width: 10rem;
+  width: 15rem;
+}
+
+@media screen and (max-width: 375px) {
+  .social-links-img {
+    width: 2rem;
+  }
+  
+  .logo-f img {
+    width: 10rem;
+  }
+
+  .footer{
+    height: 20rem;
+  }
 }
