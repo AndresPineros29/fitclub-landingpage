@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer">
-        <div className="social-links">
+        {/* <div className="social-links">
           <a
             href="https://github.com/AndresPineros29/fitclub-landingpage"
             target="_blank"
@@ -21,7 +21,7 @@ const Footer = () => {
           >
             <img className="social-links-img" src={linkedin} alt="linkedin_icon" />
           </a>
-        </div>
+        </div> */}
         <div className="logo-f">
           <img src={logo} alt="logo" />
         </div>
